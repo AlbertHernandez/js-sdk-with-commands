@@ -2,7 +2,7 @@ const { CreateUserCommand } = require('./create-user-command')
 const { CreateUserCommandOutput } = require('./create-user-command-output')
 
 class CreateUserCommandHandler {
-  subscribedTo () {
+  handlesCommand () {
     return CreateUserCommand
   }
 

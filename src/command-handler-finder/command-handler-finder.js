@@ -9,7 +9,7 @@ class CommandHandlerFinder {
 
   getCommandHandlersByName (commandHandlers) {
     return commandHandlers.reduce((acc, commandHandler) => {
-      const commandName = commandHandler.subscribedTo().name
+      const commandName = commandHandler.handlesCommand().name
       acc[commandName] = commandHandler
       return acc
     }, {})
