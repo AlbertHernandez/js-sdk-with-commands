@@ -1,7 +1,7 @@
 {
-  "name": "js-playground",
+  "name": "js-sdk-with-commands",
   "version": "1.0.0",
-  "description": "Playground for running javascript",
+  "description": "Example of how we can create a SDK using the command pattern",
   "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
@@ -24,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlbertHernandez/js-playground.git"
+    "url": "git+https://github.com/AlbertHernandez/js-sdk-with-commands.git"
   },
-  "homepage": "https://github.com/AlbertHernandez/js-playground#readme",
+  "homepage": "https://github.com/AlbertHernandez/js-sdk-with-commands#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",

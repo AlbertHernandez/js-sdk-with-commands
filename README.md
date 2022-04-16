@@ -1,11 +1,13 @@
-<h1 align="center">Javascript Playground</h1>
+<h1 align="center">JS SDK With Commands</h1>
 
 <p align="center">
-  Playground for when I need to run Javascript code
+      Example of how we can create a SDK using the command pattern.
+<br>
+      This is an example of how <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/index.html">AWS SDK client</a> internally works.
 </p>
 
 <p align="center">
-    <a href="https://github.com/AlbertHernandez/js-playground/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/js-playground/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
+    <a href="https://github.com/AlbertHernandez/js-sdk-with-commands/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/js-sdk-with-commands/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
 </p>
 
 ## Table of Contents
