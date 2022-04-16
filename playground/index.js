@@ -1,5 +1,17 @@
-const { isPositiveNumber } = require('../src');
+const {
+  SdkClient,
+  CreateUserCommand
+} = require('../src')
 
-const number = 2;
-const res = isPositiveNumber(number);
-console.log(res);
+const run = async () => {
+  const sdkClient = new SdkClient()
+
+  const command = new CreateUserCommand({
+    name: 'pepe'
+  })
+
+  const output = await sdkClient.send(command)
+  console.log('output: ', output)
+}
+
+run()

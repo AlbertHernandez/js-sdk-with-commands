@@ -1,5 +1,7 @@
-const { isPositiveNumber } = require('./is-positive-number');
+const { SdkClient } = require('./sdk-client')
+const { CreateUserCommand } = require('./actions')
 
 module.exports = {
-  isPositiveNumber,
-};
+  SdkClient,
+  CreateUserCommand
+}

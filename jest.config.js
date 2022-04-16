@@ -1,4 +1,4 @@
 module.exports = {
   testEnvironment: 'node',
-  cacheDirectory: '.tmp/jestCache',
-};
+  cacheDirectory: '.tmp/jestCache'
+}
