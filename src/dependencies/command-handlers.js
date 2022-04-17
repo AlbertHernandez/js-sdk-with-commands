@@ -1,7 +1,11 @@
-const { CreateUserCommandHandler } = require('../actions')
+const {
+  CreateUserCommandHandler,
+  UpdateUserCommandHandler
+} = require('../actions')
 
 const commandHandlers = [
-  new CreateUserCommandHandler()
+  new CreateUserCommandHandler(),
+  new UpdateUserCommandHandler()
 ]
 
 module.exports = { commandHandlers }

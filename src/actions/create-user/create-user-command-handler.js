@@ -9,7 +9,7 @@ class CreateUserCommandHandler {
   async handle (command) {
     const output = new CreateUserCommandOutput({
       name: command.name,
-      createdAt: new Date()
+      createdAt: new Date().toISOString()
     })
 
     return output

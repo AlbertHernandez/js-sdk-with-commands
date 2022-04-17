@@ -1,7 +1,8 @@
 const { SdkClient } = require('./sdk-client')
-const { CreateUserCommand } = require('./actions')
+const { CreateUserCommand, UpdateUserCommand } = require('./actions')
 
 module.exports = {
   SdkClient,
-  CreateUserCommand
+  CreateUserCommand,
+  UpdateUserCommand
 }
